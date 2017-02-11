@@ -1,0 +1,17 @@
+{
+	"manifest_version": 2,
+	"name": "Togethertube Nightmode",
+	"version": "0.1",
+	"content_scripts": [
+		{
+			"matches": [ "https://www.togethertube.com/rooms/*", "https://togethertube.com/rooms/*" ],
+			"js": [ "nightmode.js" ],
+			"css": [ "nightmode.css" ]
+		}
+	],
+	"icons": {
+		"16": "icon16.png",
+		"48": "icon48.png",
+		"128": "icon128.png"
+	}
+}

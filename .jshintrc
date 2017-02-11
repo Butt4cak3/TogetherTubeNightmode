@@ -1,0 +1,6 @@
+{
+	"browser": true,
+	"globals": {
+		"Promise": false
+	}
+}
