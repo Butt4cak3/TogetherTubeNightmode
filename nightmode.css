@@ -254,3 +254,8 @@ body.nightmode {
 .nightmode ol.user-list>li:nth-child(even) {
 	background-color: transparent;
 }
+
+/* Big video player */
+.bigplayer .col-xs-8, .bigplayer .col-xs-4 {
+	width: 100%;
+}
