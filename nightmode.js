@@ -1,7 +1,7 @@
 (function () {
 	var menu = document.querySelector(".navbar-room-header .navbar-right");
 
-	addToolbarItem("Big player", "arrows-alt", toggleBigPlayer);
+	addToolbarItem("Big Player", "arrows-alt", toggleBigPlayer);
 	addToolbarItem("Toggle Nightmode", "lightbulb-o", toggleNightMode);
 
 	function addToolbarItem(label, icon, onClick) {
