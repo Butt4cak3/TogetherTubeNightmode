@@ -1,5 +1,10 @@
 (function () {
-	var menu = document.querySelector(".navbar-room-header .navbar-right");
+	var menu = document.querySelector(".navbar-room-header .navbar-right"),
+		playerContainer = document.getElementsByClassName("col-xs-8")[0],
+		chatContainer = playerContainer.nextElementSibling,
+		userlistContainer = document.getElementsByClassName("col-xs-4")[1],
+		topRow = document.getElementsByClassName("row")[1],
+		bottomRow = topRow.nextElementSibling;
 
 	addToolbarItem("Big Player", "arrows-alt", toggleBigPlayer);
 	addToolbarItem("Toggle Nightmode", "lightbulb-o", toggleNightMode);
@@ -30,10 +35,13 @@
 	}
 
 	function toggleBigPlayer() {
-		if (document.body.classList.contains("bigplayer")) {
-			document.body.classList.remove("bigplayer");
+		if (playerContainer.style.width === "") {
+			playerContainer.style.width = "100%";
+			bottomRow.appendChild(chatContainer);
+			bottomRow.appendChild(userlistContainer);
 		} else {
-			document.body.classList.add("bigplayer");
+			playerContainer.style.width = "";
+			topRow.appendChild(chatContainer);
 		}
 	}
 }());
