@@ -12,11 +12,11 @@
 	chrome.storage.sync.get([ "nightmode", "bigplayer" ], function (items) {
 		console.log(items);
 		if (items.nightmode === "1") {
-			toggleNightMode();
+			enableNightMode();
 		}
 
 		if (items.bigplayer === "1") {
-			toggleBigPlayer();
+			enableBigPlayer();
 		}
 	});
 
