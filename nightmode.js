@@ -9,7 +9,7 @@
 	addToolbarItem("Big Player", "arrows-alt", toggleBigPlayer);
 	addToolbarItem("Toggle Nightmode", "lightbulb-o", toggleNightMode);
 
-	chrome.storage.sync.get([ "nightmode", "bigplayer" ], function (items) {
+	chrome.storage.local.get([ "nightmode", "bigplayer" ], function (items) {
 		if (items.nightmode === "1") {
 			enableNightMode();
 		}
@@ -38,12 +38,12 @@
 
 	function enableNightMode() {
 		document.body.classList.add("nightmode");
-		chrome.storage.sync.set({ "nightmode": "1" });
+		chrome.storage.local.set({ "nightmode": "1" });
 	}
 
 	function disableNightMode() {
 		document.body.classList.remove("nightmode");
-		chrome.storage.sync.set({ "nightmode": "0" });
+		chrome.storage.local.set({ "nightmode": "0" });
 	}
 
 	function toggleNightMode() {
@@ -58,13 +58,13 @@
 		playerContainer.style.width = "100%";
 		bottomRow.appendChild(chatContainer);
 		bottomRow.appendChild(userlistContainer);
-		chrome.storage.sync.set({ "bigplayer": "1" });
+		chrome.storage.local.set({ "bigplayer": "1" });
 	}
 
 	function disableBigPlayer() {
 		playerContainer.style.width = "";
 		topRow.appendChild(chatContainer);
-		chrome.storage.sync.set({ "bigplayer": "0" });
+		chrome.storage.local.set({ "bigplayer": "0" });
 	}
 
 	function toggleBigPlayer() {
