@@ -1,0 +1,13 @@
+[*.{js,json,css}]
+charset = utf-8
+indent_style = tab
+tab_width = 4
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+[.{editorconfig,jshintrc}]
+charset = utf-8
+indent_style = tab
+tab_width = 4
+insert_final_newline = true
+trim_trailing_whitespace = true
