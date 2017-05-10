@@ -36,7 +36,7 @@
 
 		i.classList.add("fa", "fa-" + icon);
 	}
-	
+
 	function enableNightMode() {
 		document.body.classList.add("nightmode");
 		chrome.storage.sync.set({ "nightmode": "1" });
