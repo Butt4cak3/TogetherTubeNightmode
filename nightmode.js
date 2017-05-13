@@ -4,7 +4,9 @@
 		chatContainer = playerContainer.nextElementSibling,
 		userlistContainer = document.getElementsByClassName("col-xs-4")[1],
 		topRow = document.getElementsByClassName("row")[1],
-		bottomRow = topRow.nextElementSibling;
+		bottomRow = topRow.nextElementSibling,
+		headerImage = document.querySelector(".navbar-brand>img"),
+		origHeaderURL = headerImage.src;
 
 	addToolbarItem("Big Player", "arrows-alt", toggleBigPlayer);
 	addToolbarItem("Toggle Nightmode", "lightbulb-o", toggleNightMode);
@@ -38,11 +40,13 @@
 
 	function enableNightMode() {
 		document.body.classList.add("nightmode");
+		headerImage.src = chrome.extension.getURL("header.png");
 		chrome.storage.local.set({ "nightmode": "1" });
 	}
 
 	function disableNightMode() {
 		document.body.classList.remove("nightmode");
+		headerImage.src = origHeaderURL;
 		chrome.storage.local.set({ "nightmode": "0" });
 	}
 
