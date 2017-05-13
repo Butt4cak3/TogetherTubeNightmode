@@ -1,7 +1,7 @@
 {
 	"manifest_version": 2,
 	"name": "Togethertube Nightmode",
-	"version": "0.4.0",
+	"version": "0.4.1",
 	"content_scripts": [
 		{
 			"matches": [ "https://www.togethertube.com/rooms/*", "https://togethertube.com/rooms/*" ],
