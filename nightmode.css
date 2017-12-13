@@ -27,8 +27,8 @@ body.nightmode {
 
 .nightmode .navbar-default {
 	background-color: #111;
+	border-color: #333;
 	border-top-color: #000;
-	border-bottom-color: #333;
 }
 
 .nightmode .navbar-room-header {
