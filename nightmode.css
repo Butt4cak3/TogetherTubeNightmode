@@ -27,12 +27,13 @@ body.nightmode {
 
 .nightmode .navbar-default {
 	background-color: #111;
-	border-color: #333;
+	border-top-color: #000;
+	border-bottom-color: #333;
 }
 
 .nightmode .navbar-room-header {
-	border-width: 2px 0px;
-	border-style: groove;
+	border-width: 1px 0px;
+	border-style: solid;
 	border-radius: 0px;
 }
 
@@ -174,7 +175,7 @@ body.nightmode {
 	background-color: #111;
 	color: #888;
 	border-color: #333;
-	
+
 }
 
 /* Tabs */
