@@ -6,7 +6,7 @@ A dark theme for TogetherTube
 
 ### Chrome Web Store
 
-The extension can be found on the [Chrome Web Store](https://chrome.google.com/webstore/detail/togethertube-nightmode/kocieahmdookcllooghinfmccikjfdmh)!
+The extension can be found on the [Chrome Web Store](https://chrome.google.com/webstore/detail/togethertube-nightmode/kocieahmdookcllooghinfmccikjfdmh) and [Firefox Add-ons](https://addons.mozilla.org/de/firefox/addon/togethertube-nightmode/)!
 
 ### Manual installation
 You can download the newest version as a .crx file from the [Releases](https://github.com/Butt4cak3/TogetherTubeNightmode/releases) page. To install it, simply drag the file into an open browser window.
