@@ -23,7 +23,8 @@
 				promise = Promise.resolve();
 
 			for (i = 0; i < response.items.length; i++) {
-				promise = promise.then(addVideo.bind(null, response.items[i].contentDetails.videoId));
+				promise = promise.then(addVideo.bind(null, response.items[i].contentDetails.videoId),
+					addVideo.bind(null, response.items[i].contentDetails.videoId));
 			}
 
 			if (response.nextPageToken) {
@@ -40,7 +41,7 @@
 		simulateInput("");
 		return waitFor(listIsEmpty).then(function () {
 			simulateInput("https://youtu.be/" + videoId);
-			return waitFor(listIsNotEmpty);
+			return waitFor(listIsNotEmpty, null, 5000);
 		}).then(function () {
 			var ol = document.getElementsByClassName("videoList")[1],
 				btn = ol.getElementsByClassName("btn-success")[0],
@@ -114,14 +115,14 @@
 		});
 	}
 
-	function waitFor(condition, sleepTime) {
+	function waitFor(condition, sleepTime, timeout) {
 		if (!sleepTime) {
 			sleepTime = 100;
 		}
 
 		if (condition === true) return Promise.resolve();
 
-		return new Promise(function (resolve) {
+		return new Promise(function (resolve, reject) {
 			var interval;
 
 			interval = setInterval(function () {
@@ -130,6 +131,10 @@
 					resolve();
 				}
 			}, sleepTime);
+
+			if (timeout) {
+				setTimeout(reject, timeout);
+			}
 		});
 	}
 
