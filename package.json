@@ -1,0 +1,16 @@
+{
+  "scripts": {
+    "clean": "gulp clean",
+    "build": "gulp build",
+    "package": "gulp package"
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.0.63",
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "del": "^3.0.0",
+    "gulp": "^4.0.0",
+    "gulp-babel": "^7.0.1",
+    "gulp-zip": "^4.1.0"
+  }
+}

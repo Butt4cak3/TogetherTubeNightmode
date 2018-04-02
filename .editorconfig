@@ -1,13 +1,10 @@
-[*.{js,json,css}]
+root = true
+
+[*]
 charset = utf-8
-indent_style = tab
-tab_width = 4
 insert_final_newline = true
 trim_trailing_whitespace = true
 
-[.{editorconfig,jshintrc}]
-charset = utf-8
-indent_style = tab
-tab_width = 4
-insert_final_newline = true
-trim_trailing_whitespace = true
+[*.{js,json,css}]
+indent_style = space
+indent_size = 2

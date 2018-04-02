@@ -1,24 +1,24 @@
 {
-	"manifest_version": 2,
-	"name": "Togethertube Nightmode",
-	"version": "0.5.1",
-	"content_scripts": [
-		{
-			"matches": [ "https://www.togethertube.com/rooms/*", "https://togethertube.com/rooms/*" ],
-			"js": [ "nightmode.js", "playlists.js" ],
-			"css": [ "nightmode.css" ]
-		}
-	],
-	"icons": {
-		"16": "icon16.png",
-		"48": "icon48.png",
-		"128": "icon128.png"
-	},
-	"web_accessible_resources": [
-		"header.png"
-	],
-	"permissions": [
-		"storage",
-		"https://www.googleapis.com/youtube/*"
-	]
+  "manifest_version": 2,
+  "name": "Togethertube Nightmode",
+  "version": "0.5.1",
+  "content_scripts": [
+    {
+      "matches": [ "https://www.togethertube.com/rooms/*", "https://togethertube.com/rooms/*" ],
+      "js": [ "nightmode.js", "playlists.js" ],
+      "css": [ "nightmode.css" ]
+    }
+  ],
+  "icons": {
+    "16": "icon/icon16.png",
+    "48": "icon/icon48.png",
+    "128": "icon/icon128.png"
+  },
+  "web_accessible_resources": [
+    "header.png"
+  ],
+  "permissions": [
+    "storage",
+    "https://www.googleapis.com/youtube/*"
+  ]
 }

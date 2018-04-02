@@ -1,257 +1,257 @@
 body.nightmode {
-	background-color: #222;
-	color: #777;
+  background-color: #222;
+  color: #777;
 }
 
 .nightmode *::-webkit-scrollbar, body.nightmode::-webkit-scrollbar  {
-	background-color: #000;
+  background-color: #000;
 }
 
 .nightmode *::-webkit-scrollbar-thumb, body.nightmode::-webkit-scrollbar-thumb  {
-	background-color: #333;
+  background-color: #333;
 }
 
 .nightmode a {
-	color: #C80;
+  color: #C80;
 }
 
 .nightmode a:hover {
-	color: #C80;
+  color: #C80;
 }
 
 /* Navigation bars */
 
 .nightmode .navbar-static-top {
-	border: none;
+  border: none;
 }
 
 .nightmode .navbar-default {
-	background-color: #111;
-	border-color: #333;
-	border-top-color: #000;
+  background-color: #111;
+  border-color: #333;
+  border-top-color: #000;
 }
 
 .nightmode .navbar-room-header {
-	border-width: 1px 0px;
-	border-style: solid;
-	border-radius: 0px;
+  border-width: 1px 0px;
+  border-style: solid;
+  border-radius: 0px;
 }
 
 /* Sliders */
 
 .nightmode .slider {
-	border-color: #333;
+  border-color: #333;
 }
 
 /* Navigation links */
 
 .nightmode .navbar-default .navbar-nav>li>a {
-	color: #777;
+  color: #777;
 }
 
 .nightmode .navbar-default .navbar-nav>li>a:hover {
-	color: #FFF;
+  color: #FFF;
 }
 
 .nightmode .navbar-default .navbar-nav>li>a:focus {
-	color: #777;
+  color: #777;
 }
 
 /* Videoplayer */
 
 .nightmode .player-overlay-wrapper .player-overlay {
-	background-color: #111;
-	color: #777;
+  background-color: #111;
+  color: #777;
 }
 
 .nightmode .player-overlay-wrapper .player-overlay .player-overlay-textbox {
-	background-color: #222;
+  background-color: #222;
 }
 
 .nightmode .player-overlay-wrapper .player-overlay i.fa {
-	color: #C80;
+  color: #C80;
 }
 
 /* Position slider */
 
 .nightmode #player #positionSlider {
-	border-color: #333;
+  border-color: #333;
 }
 
 .nightmode .slider .track {
-	background-color: #111;
+  background-color: #111;
 }
 
 .nightmode .slider .statusTrack {
-	background-color: #222;
+  background-color: #222;
 }
 
 .nightmode .slider .leftTrack {
-	background-color: #222;
+  background-color: #222;
 }
 
 .nightmode .slider .bubble {
-	background-color: #C80;
+  background-color: #C80;
 }
 
 /* Video quality dropdown */
 
 .nightmode .navbar-default .navbar-nav>.open>a, .nightmode .navbar-default .navbar-nav>.open>a:focus {
-	background-color: #333;
-	color: #FFF;
+  background-color: #333;
+  color: #FFF;
 }
 
 .nightmode .dropdown-menu {
-	background-color: #333;
+  background-color: #333;
 }
 
 .nightmode .dropdown-menu>li>a {
-	color: #FFF;
+  color: #FFF;
 }
 
 /* Buttons */
 
 .nightmode .btn-default {
-	background-color: #111;
-	border-color: #333;
-	color: #777;
+  background-color: #111;
+  border-color: #333;
+  color: #777;
 }
 
 .nightmode .btn-default:hover {
-	background-color: #222;
-	border-color: #444;
-	color: #777;
+  background-color: #222;
+  border-color: #444;
+  color: #777;
 }
 
 .nightmode .btn-primary {
-	background-color: #C80;
-	border-color: #950;
+  background-color: #C80;
+  border-color: #950;
 }
 
 .nightmode .btn-primary:hover {
-	background-color: #950;
-	border-color: #730;
+  background-color: #950;
+  border-color: #730;
 }
 
 .nightmode .btn-primary:active, .nightmode .btn-primary.active, .nightmode .open>.dropdown-toggle.btn-primary {
-	background-color: #950;
-	border-color: #730;
+  background-color: #950;
+  border-color: #730;
 }
 
 .nightmode .btn-primary:focus, .nightmode .btn-primary.focus {
-	background-color: #950;
-	border-color: #730;
+  background-color: #950;
+  border-color: #730;
 }
 
 .nightmode .btn-primary:active:hover, .nightmode .btn-primary.active:hover, .nightmode .open>.dropdown-toggle.btn-primary:hover, .nightmode .btn-primary:active:focus, .nightmode .btn-primary.active:focus, .nightmode .open>.dropdown-toggle.btn-primary:focus, .nightmode .btn-primary:active.focus, .nightmode .btn-primary.active.focus, .nightmode .open>.dropdown-toggle.btn-primary.focus {
-	background-color: #950;
-	border-color: #730;
+  background-color: #950;
+  border-color: #730;
 }
 
 /* Panel */
 
 .nightmode .panel-default {
-	border-color: #333;
+  border-color: #333;
 }
 
 .nightmode .panel {
-	background-color: #111;
+  background-color: #111;
 }
 
 .nightmode .panel-footer {
-	background-color: #111;
-	border-top: 1px solid #333;
+  background-color: #111;
+  border-top: 1px solid #333;
 }
 
 /* Chat */
 
 .nightmode .panel-chat .chatlog .messageEntry>.name {
-	color: #FFF;
+  color: #FFF;
 }
 
 /* Inputs */
 
 .nightmode .form-control {
-	background-color: #111;
-	color: #888;
-	border-color: #333;
+  background-color: #111;
+  color: #888;
+  border-color: #333;
 
 }
 
 /* Tabs */
 
 .nightmode .nav-tabs {
-	border-bottom-color: #333;
+  border-bottom-color: #333;
 }
 
 .nightmode .nav-tabs>li.active>a, .nightmode .nav-tabs>li.active>a:hover, .nightmode .nav-tabs>li.active>a:focus {
-	background-color: #222;
-	border-color: #333;
-	border-bottom-color: transparent;
-	color: #888;
+  background-color: #222;
+  border-color: #333;
+  border-bottom-color: transparent;
+  color: #888;
 }
 
 .nightmode .nav>li>a:hover, .nightmode .nav>li>a:focus {
-	background-color: #333;
+  background-color: #333;
 }
 
 .nightmode .nav-tabs>li>a:hover {
-	border-color: #444;
+  border-color: #444;
 }
 
 /* Video list */
 
 .nightmode ol.videoList>li.videoListEntry .header {
-	background-color: #111;
-	border-color: #333;
+  background-color: #111;
+  border-color: #333;
 }
 
 .nightmode ol.videoList>li.videoListEntry .content {
-	border-color: #333;
+  border-color: #333;
 }
 
 .nightmode ol.videoList>li.videoListEntry .content>.list-container:nth-child(3) {
-	background-color: #111;
-	border-color: #333;
+  background-color: #111;
+  border-color: #333;
 }
 
 /* Page selector */
 
 .nightmode .pagination>.disabled>span, .nightmode .pagination>.disabled>span:hover, .nightmode .pagination>.disabled>span:focus, .nightmode .pagination>.disabled>a, .nightmode .pagination>.disabled>a:hover, .nightmode .pagination>.disabled>a:focus {
-	background-color: #111;
-	color: #777;
-	border-color: #333;
+  background-color: #111;
+  color: #777;
+  border-color: #333;
 }
 
 .nightmode .pagination>.active>a, .nightmode .pagination>.active>span, .nightmode .pagination>.active>a:hover, .nightmode .pagination>.active>span:hover, .nightmode .pagination>.active>a:focus, .nightmode .pagination>.active>span:focus {
-	background-color: #C80;
-	border-color: #333;
-	color: #FFF;
+  background-color: #C80;
+  border-color: #333;
+  color: #FFF;
 }
 
 .nightmode .pagination>li>a, .nightmode .pagination>li>span {
-	background-color: #111;
-	border-color: #333;
-	color: #C80;
+  background-color: #111;
+  border-color: #333;
+  color: #C80;
 }
 
 .nightmode .pagination>li>a:hover, .nightmode .pagination>li>span:hover, .nightmode .pagination>li>a:focus, .nightmode .pagination>li>span:focus {
-	background-color: #222;
-	border-color: #444;
-	color: #C80;
+  background-color: #222;
+  border-color: #444;
+  color: #C80;
 }
 
 /* Userlist */
 
 .nightmode ol.user-list>li {
-	border-color: #333;
+  border-color: #333;
 }
 
 .nightmode ol.user-list>li:first-child {
-	border-top-color: #333;
+  border-top-color: #333;
 }
 
 
 .nightmode ol.user-list>li:nth-child(even) {
-	background-color: transparent;
+  background-color: transparent;
 }
