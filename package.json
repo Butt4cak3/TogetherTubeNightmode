@@ -6,6 +6,11 @@
   },
   "devDependencies": {
     "@types/chrome": "^0.0.63",
+    "@types/del": "^3.0.1",
+    "@types/gulp": "^4.0.5",
+    "@types/gulp-babel": "^6.1.29",
+    "@types/gulp-zip": "^4.0.0",
+    "@types/node": "^9.6.1",
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.6.1",
     "del": "^3.0.0",
